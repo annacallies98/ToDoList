@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RegisterView: View {
-
+	@StateObject var viewModel = VM_RegisterView()
 
     var body: some View {
 
@@ -20,24 +20,24 @@ struct RegisterView: View {
 					   background: Color("DarkColor"))
 			// Register Form
 			Form {
-				TextField("First Name", text: $firstname)
+				TextField("First Name", text: $viewModel.firstname)
 					.textFieldStyle((DefaultTextFieldStyle()))
 					.autocorrectionDisabled()
-				TextField("Last Name", text: $lastname)
-					.textFieldStyle((DefaultTextFieldStyle()))
-					.autocapitalization(.none)
-					.autocorrectionDisabled()
-				TextField("Email Address", text: $email)
+				TextField("Last Name", text: $viewModel.lastname)
 					.textFieldStyle((DefaultTextFieldStyle()))
 					.autocapitalization(.none)
 					.autocorrectionDisabled()
-				SecureField("Password", text: $password)
+				TextField("Email Address", text: $viewModel.email)
+					.textFieldStyle((DefaultTextFieldStyle()))
+					.autocapitalization(.none)
+					.autocorrectionDisabled()
+				SecureField("Password", text: $viewModel.password)
 					.textFieldStyle((DefaultTextFieldStyle()))
 				TDLButton(
 					title: "Sign Up",
 					background: Color.accentColor)
 				{
-					
+					viewModel.register()
 				}
 				.padding(15)
 			}

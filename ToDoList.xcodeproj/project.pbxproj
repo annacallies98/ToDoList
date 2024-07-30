@@ -71,6 +71,7 @@
 		EF1D62F62C51D0CD005147F0 /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D62F52C51D0CD005147F0 /* TDLButton.swift */; };
 		EF1D62F72C51D0CD005147F0 /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D62F52C51D0CD005147F0 /* TDLButton.swift */; };
 		EF1D62F82C51D0CD005147F0 /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D62F52C51D0CD005147F0 /* TDLButton.swift */; };
+		EFE3B6542C597A020012A6BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3B6532C597A020012A6BC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		EF1D62ED2C518A64005147F0 /* VM_ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM_ToDoListView.swift; sourceTree = "<group>"; };
 		EF1D62F12C51B611005147F0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		EF1D62F52C51D0CD005147F0 /* TDLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDLButton.swift; sourceTree = "<group>"; };
+		EFE3B6532C597A020012A6BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +254,7 @@
 				EF1D625B2C515CEA005147F0 /* ToDoListApp.swift */,
 				EF1D625F2C515CF2005147F0 /* Assets.xcassets */,
 				EF1D62902C5168F3005147F0 /* GoogleService-Info.plist */,
+				EFE3B6532C597A020012A6BC /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				EF1D625C2C515CEA005147F0 /* ToDoListApp.swift in Sources */,
 				EF1D62DA2C5189C2005147F0 /* VM_ProfileView.swift in Sources */,
 				EF1D62E62C518A37005147F0 /* VM_LoginView.swift in Sources */,
+				EFE3B6542C597A020012A6BC /* Extensions.swift in Sources */,
 				EF1D62DE2C518A0A005147F0 /* VM_ToDoListItemView.swift in Sources */,
 				EF1D62BA2C518864005147F0 /* ToDoListItem.swift in Sources */,
 				EF1D62A62C5187A6005147F0 /* NewItemView.swift in Sources */,
