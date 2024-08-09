@@ -6,3 +6,6 @@
 //
 
 import Foundation
+class VM_NewItemView: ObservableObject {
+	init() {}
+}

@@ -4,6 +4,7 @@
 //
 //  Created by Anna Callies on 7/24/24.
 //
+// View for the individual to-do list items
 
 import SwiftUI
 

@@ -71,6 +71,9 @@
 		EF1D62F62C51D0CD005147F0 /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D62F52C51D0CD005147F0 /* TDLButton.swift */; };
 		EF1D62F72C51D0CD005147F0 /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D62F52C51D0CD005147F0 /* TDLButton.swift */; };
 		EF1D62F82C51D0CD005147F0 /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D62F52C51D0CD005147F0 /* TDLButton.swift */; };
+		EFACFBC02C6698B800F26DF5 /* KeyboardEventsListenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACFBBF2C6698B800F26DF5 /* KeyboardEventsListenerView.swift */; };
+		EFACFBC12C6698B800F26DF5 /* KeyboardEventsListenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACFBBF2C6698B800F26DF5 /* KeyboardEventsListenerView.swift */; };
+		EFACFBC22C6698B800F26DF5 /* KeyboardEventsListenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACFBBF2C6698B800F26DF5 /* KeyboardEventsListenerView.swift */; };
 		EFE3B6542C597A020012A6BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE3B6532C597A020012A6BC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +123,7 @@
 		EF1D62ED2C518A64005147F0 /* VM_ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VM_ToDoListView.swift; sourceTree = "<group>"; };
 		EF1D62F12C51B611005147F0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		EF1D62F52C51D0CD005147F0 /* TDLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDLButton.swift; sourceTree = "<group>"; };
+		EFACFBBF2C6698B800F26DF5 /* KeyboardEventsListenerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardEventsListenerView.swift; sourceTree = "<group>"; };
 		EFE3B6532C597A020012A6BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,6 +225,7 @@
 				EF1D62B12C51880A005147F0 /* ToDoListView.swift */,
 				EF1D62F12C51B611005147F0 /* HeaderView.swift */,
 				EF1D62F52C51D0CD005147F0 /* TDLButton.swift */,
+				EFACFBBF2C6698B800F26DF5 /* KeyboardEventsListenerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 				EF1D62B22C51880A005147F0 /* ToDoListView.swift in Sources */,
 				EF1D62F62C51D0CD005147F0 /* TDLButton.swift in Sources */,
 				EF1D62A22C518790005147F0 /* ToDoListItemView.swift in Sources */,
+				EFACFBC22C6698B800F26DF5 /* KeyboardEventsListenerView.swift in Sources */,
 				EF1D62AE2C5187BE005147F0 /* RegisterView.swift in Sources */,
 				EF1D62B62C518857005147F0 /* User.swift in Sources */,
 				EF1D62D62C5189A9005147F0 /* VM_MainView.swift in Sources */,
@@ -440,6 +446,7 @@
 				EF1D62AB2C5187B3005147F0 /* LoginView.swift in Sources */,
 				EF1D62D72C5189A9005147F0 /* VM_MainView.swift in Sources */,
 				EF1D626D2C515CF2005147F0 /* ToDoListTests.swift in Sources */,
+				EFACFBC12C6698B800F26DF5 /* KeyboardEventsListenerView.swift in Sources */,
 				EF1D62E32C518A28005147F0 /* VM_NewItemView.swift in Sources */,
 				EF1D62B32C51880A005147F0 /* ToDoListView.swift in Sources */,
 				EF1D62BB2C518864005147F0 /* ToDoListItem.swift in Sources */,
@@ -456,6 +463,7 @@
 				EF1D62F42C51B611005147F0 /* HeaderView.swift in Sources */,
 				EF1D62F02C518A64005147F0 /* VM_ToDoListView.swift in Sources */,
 				EF1D62792C515CF2005147F0 /* ToDoListUITestsLaunchTests.swift in Sources */,
+				EFACFBC02C6698B800F26DF5 /* KeyboardEventsListenerView.swift in Sources */,
 				EF1D62EC2C518A51005147F0 /* VM_RegisterView.swift in Sources */,
 				EF1D62B42C51880A005147F0 /* ToDoListView.swift in Sources */,
 				EF1D62F82C51D0CD005147F0 /* TDLButton.swift in Sources */,
@@ -617,6 +625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
+				DEVELOPMENT_TEAM = VAJYRG6UNY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
@@ -630,7 +639,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = new.ToDoList;
+				PRODUCT_BUNDLE_IDENTIFIER = new.ToDoListApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -650,6 +659,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoList/Preview Content\"";
+				DEVELOPMENT_TEAM = VAJYRG6UNY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
@@ -663,7 +673,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = new.ToDoList;
+				PRODUCT_BUNDLE_IDENTIFIER = new.ToDoListApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
